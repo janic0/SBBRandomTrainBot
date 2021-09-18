@@ -1,8 +1,8 @@
-# SBBRandomTrainBot
+# SBB Random Train Telegram Bot
 
 This Bot allows you to get random train connections in the Swiss Train Network (SBB). 
 
-## The project is live on `https://t.me/sbbrandombot`
+## The project is live on [https://t.me/sbbrandombot](https://t.me/sbbrandombot)
 
 You activate it by sending it your current location. 
 It will send you back a train station and platform.
