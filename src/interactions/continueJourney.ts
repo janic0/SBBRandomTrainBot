@@ -3,7 +3,7 @@ import sendMessage from "../telegram/sendMessage";
 import getTripAndDoLogic from "./getTripAndDoLogic";
 
 const continueJourney = (j: Journey) => {
-	getTripAndDoLogic(j.station.id, 3, j).then((e) => {
+	getTripAndDoLogic(j.station.id, j).then((e) => {
 		if (e.arrival && e.station && e.station.id && e.passList) {
 				if (j.active) {
 					if (e) {

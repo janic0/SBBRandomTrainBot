@@ -2,7 +2,7 @@ import axios from "axios"
 import Journey from "../journey"
 import filterStations from "../utils/filterStations"
 
-const getTripAndDoLogic = (station: string, chat: number, journey?: Journey): Promise<{ message: string, ok: boolean, arrival: Date | undefined, station: {name: string, id: string, coordinate: {type: string, x: number, y: number}} | undefined, passList?: any[]}> => {
+const getTripAndDoLogic = (station: string, journey?: Journey): Promise<{ message: string, ok: boolean, arrival: Date | undefined, station: {name: string, id: string, coordinate: {type: string, x: number, y: number}} | undefined, passList?: any[]}> => {
 	const now = new Date()
 	now.setTime(now.getTime() + 180000 + 7200000)
 	return axios.get("http://transport.opendata.ch/v1/stationboard", {

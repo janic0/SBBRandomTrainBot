@@ -3,7 +3,6 @@ import Journey from "../journey"
 const filterStations = (connection: any[], journey: Journey): any[] => {
 	const placesRankings: any[] = [0, 0, 0]
 	const placesConnections: any[] = []
-		let bestConnection: any = {}
 		const validConnections: any = []
 		connection.forEach((c) => {
 			const validStations: any[] = []
