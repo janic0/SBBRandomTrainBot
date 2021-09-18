@@ -12,5 +12,5 @@ You can continue by typing `/continue`
 ## A notice on self-hosting
 
 For running the bot yourself, you need a 
-- Telegram Bot API Token (https://core.telegram.org/bots/api)
-- Random URL (choose this randomly!)
+- TOKEN = Telegram Bot API Token (https://core.telegram.org/bots/api)
+- URL = Random URL (choose this randomly!)
